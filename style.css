@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.burger-img {
+    display: none;
+}
+
+.header-top ul  {
+    gap: 20px;
+    list-style: none;
+    padding: 20px 0;
+}
+
+.header-top ul li {
+    padding: 5px 0;
+}
+
+.header-top ul li button {
+    background-color: white;
+    color: #212864;
+    border: 1px solid #212864;
+    border-radius: 15px;
+    padding: 7px 20px;
+}
+
+.header-navigation {
+    background-color: #15193D;
+    color: white;
+    width: 100%;
+}
+
+.header-navigation ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
+}
+
+.catalog-menu {
+    background-color: #8C93D1;
+    color: white;
+    width: 100%;
+}
+
+.catalog-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    padding: 15px;
+}
+
+section {
+    background-image: url(https://донской-пар.рф/wp-content/uploads/2024/01/karkasnyj-dom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 520px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    color: white;
+}
+
+.hero-h1 {
+    max-width: 650px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.hero-text {
+    max-width: 320px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.fa-solid {
+    font-size: 36px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.offers {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.offers-h2 {
+    margin-left: 80px;
+    font-size: 28px;
+}
+
+.offers-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.offers-tabs button {
+    background-color: #EEEEEE;
+    color: #212864;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.offers-tabs .offers-btn {
+    background-color: #FFC239;
+}
+
+.offers-grid {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0;
+    height: 300px;
+}
+
+.product-content h3 {
+    max-width: 200px;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.product-content p {
+    color: #00000099;
+    margin-left: 20px;
+}
+
+.product-content span {
+    color: #00000099;
+}
+
+.product-span {
+    margin-left: 140px;
+}
+
+.product-span2 {
+    margin-left: 124px;
+}
+
+.product-span3 {
+    margin-left: 56px;
+}
+
+.product-price {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.product-btn button {
+    background-color: #353D83;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 70px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 450px;
+}
+
+.promo {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.promo-image {
+    width: 650px;
+}
+
+.promo-image img {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 45px;
+}
+
+.promo-content {
+    background-color: #F1F1F6;
+    width: 650px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.promo-content-p {
+    font-size: 38px;
+    /* max-width: 450px; */
+    margin-left: 40px;
+    margin-bottom: 150px;
+}
+
+.promo-content-span {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.promo-content-p2 {
+    border: 1px solid #FFC239;
+    border-radius: 50%;
+    padding: 40px 20px;
+    color: #212864;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.forest-bg {
+    background-image: url(./images/image\ 62.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.advantages {
+    background-color: #F6F6F9CC;
+}
+
+.advantages h2 {
+    font-size: 42px;
+    padding: 30px;
+}
+
+.advantages-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.advantage-card {
+    width: 48%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.vk-sub {
+    background-color: #F6F6F9E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vk-sub_content {
+    margin-top: 50px;
+    margin-left: 40px;
+    max-width: 530px;
+}
+
+.vk-content_p {
+    font-size: 30px;
+}
+
+.vk-content_span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.vk-content_p2 {
+    color: #00000099;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.vk-sub_action p {
+    border: none;
+    border-radius: 30px;
+    background-color: #353D83;
+    color: white;
+    font-weight: bold;
+    padding: 20px 40px;
+    margin-right: 20px;
+}
+
+.individual-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.individual-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.individual-text {
+    margin-bottom: 100px;
+}
+
+.individual-content_p {
+    font-size: 30px;
+    max-width: 450px;
+    margin-left: 40px;
+}
+
+.individual-content_span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.individual-content_p2 {
+    color: #00000099;
+    max-width: 420px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.individual-content_p3 {
+    border: 1px solid #FFB611;
+    border-radius: 50%;
+    padding: 50px 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+    /* margin-right: 70px; */
+}
+
+.reviews {
+    background-color: #F1F1F6;
+}
+
+.contacts-section {
+    background-image: url(./images/Rectangle\ 612.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacts-card {
+    background-color: #FFFFFFB2;
+    width: 400px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 40px;
+    margin-left: 50px;
+    max-width: 370px;
+}
+
+.contacts-card h3 {
+    margin-top: 20px;
+}
+
+.contacts-card p {
+    color: #000000CC;
+    margin-top: 10px;
+}
+
+.contacts-row {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.socials {
+    margin-left: 125px;
+}
+
+.socials-p {
+    margin-left: 30px;
+}
+
+.contacts-card button {
+    background-color: #FFC239;
+    color: #212864;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #22242E;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 50px;
+    border-bottom: 1px solid #FFFFFF66;
+    padding-bottom: 20px;
+    margin: 0 30px;
+}
+
+.footer-top ul {
+    list-style: none;
+}
+
+.socials p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 30px;
+    border-bottom: 1px solid #FFFFFF66;
+    padding-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    padding-bottom: 10px;
+}
+
+.footer-h4 {
+    margin-bottom: 10px;
+}
+
+.footer-actions {
+    justify-content: space-between;
+}
+
+.footer-actions button {
+    background-color: #22242E;
+    color: #FFC239;
+    border: 1px solid #FFC239;
+    margin-bottom: 20px;
+}
+
+.footer-actions button:first-child {
+    border-radius: 37px;
+    padding: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.footer-actions button:last-child {
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFFCC;
+}
+
+.footer-bottom ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    margin-left: 40px;
+}
+
+@media (max-width: 730px) {
+    .header-top ul {
+        display: none;
+    }
+
+    .header-navigation {
+        display: none;
+    }
+
+    .catalog-menu {
+        display: none;
+    }
+
+    .burger-img {
+        display: flex;
+    }
+
+    .offers-tabs {
+        display: block;
+    }
+
+    .product-btn  button {
+        display: block;
+    }
+}
